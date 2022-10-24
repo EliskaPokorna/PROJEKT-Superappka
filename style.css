@@ -31,3 +31,166 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.menu li {
+	font-size: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+/*.menu a:hover {
+	background-color: #48418e;
+	color: white;
+}*/ 
+
+.logo {
+	font-weight: bold;
+}
+
+.tlacitko {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+
+.tlacitko:hover {
+	padding: 10px 20px;
+	background-color: #48418e;
+}
+
+.ikona {
+	width: 70px;
+}
+
+.sloupec h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #48418e;
+}
+
+.sloupec p {
+	font-size: 20px;
+}
+
+.paticka {
+	background-color: #48418e;
+	padding: 10px 0;
+}
+
+.paticka p {
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+/*Menu*/
+
+@media screen and (min-width: 0px) {
+
+	.menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu li, .logo {
+		margin: 10px;
+	}
+
+	.menu a {
+		padding: 10px 100px;
+	}
+
+	.menu a:hover {
+		background-color: #48418e;
+		color: white;
+	} 
+
+	.underline {
+		border-bottom: 1px solid black;
+		display: inline-block;
+		width: 100%;
+	}
+
+}
+
+/*Hlavička*/
+
+@media screen and (min-width: 0px) {
+
+	.hlavicka {
+		text-align: center;
+		background-color: #500379;
+		background-image: linear-gradient(43deg, #500379 0%, #901488 50%, #b78b3a 93%);		
+		position: relative;
+		height: 730px;
+	}
+	
+	
+	.nadpis {
+		font-size: 60px;
+		font-weight: 400;
+		margin: 0;
+		margin-bottom: 30px;
+		padding-top: 10px;
+	}
+
+	.podnadpis {
+		font-size: 26px;
+		font-weight: 300;
+		margin: 0;
+		margin-bottom: 40px;
+	}
+
+	.tlacitko + .tlacitko {
+		margin-left: 20px;
+	}
+
+	.telefon {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+}
+
+
+/*Obsah*/
+
+@media screen and (min-width: 0px) {
+
+	.obsah {
+		padding: 40px 10px;
+	}
+	
+	.vlastnosti {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.sloupec 
+
+	.sloupec p {
+		margin-bottom: 30px;
+	}
+
+}
+
+/*Patička*/
+
+
